@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banque Nationale de Mauritanie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Banque Nationale de Mauritanie Logo">
+            <h1>Banque Nationale de Mauritanie</h1>
+        </div>
+        <div class="language-switcher">
+            <a href="#" onclick="setLanguage('fr')">FR</a> |
+            <a href="#" onclick="setLanguage('ar')">AR</a> |
+            <a href="#" onclick="setLanguage('en')">ENG</a>
+        </div>
+    </header>
+
+    <div class="login-container">
+        <h2 id="login-title">Connectez Vous</h2>
+        <form>
+            <div class="input-group">
+                <input type="text" id="username" placeholder="Identifiant">
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Mot de passe">
+            </div>
+            <button type="submit" class="login-btn" id="login-btn">Connexion</button>
+            <a href="#" id="forgot-link">Identifiants oubliés?</a>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
